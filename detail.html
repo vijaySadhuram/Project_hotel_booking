@@ -2,12 +2,21 @@
     <body>
 <div class="header">
     <img src="assests/images/logo.png" alt="Girl in a jacket" width="150" height="200">    
-    <a href="login.html" target="_blank">Login</a>
+    <a href="login.html" target="_self">Login</a>
     
 </div>
 <div class="content">
-    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""><br>
-     <a href="payment.html" target="_self">BooK Now</a>
+    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""><br><br>
+    <form  method="post" action="payment.html">
+   <label>Adults: <input type="number" id="1" required></label><br>
+   Name: <input type="text" required><br>
+   From Date:<input type="date" required><br>
+   To Date:<input type="date" required><br>
+   Total:<input type="text"  value=""  readonly><br>
+   <input type="submit" value="Book Now">
+    </form>
+    
+
      <h2>The Radisson Blu Hotel </h2>
      <p1>RATING</p1><br>
      <p2>5 Star</p2><br>
@@ -25,7 +34,7 @@
 </div>
 <br>
 <div class="footer">
-    <a href="contact.html " target="_blank">Contact Us</a><br>
+    <a href="contact.html " target="_self">Contact Us</a><br>
    <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" alt="Girl in a jacket" width="22px" height="20px"> </a>
    <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" alt="Girl in a jacket" width="22px" height="20px"></a>
    <a href="https://www.twitter.com" target="_blank" ><img src="assests/images/twitter.png" alt="Girl in a jacket" width="22" height="20"></a> 
