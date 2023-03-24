@@ -1,4 +1,4 @@
-# Hotel Booking Web App :boom:
+# Hotel Booking Web Application :boom:
 
 In this project, build a dynamic Hotel Booking Website :point_right: HTML,CSS,![image](https://user-images.githubusercontent.com/98251620/194926862-e6eea77b-3004-49e4-924c-52c789421d05.png)
  and AJAX. The website will allow you to choose or search for a hotel in a city of your choice and book a room in that hotel.
